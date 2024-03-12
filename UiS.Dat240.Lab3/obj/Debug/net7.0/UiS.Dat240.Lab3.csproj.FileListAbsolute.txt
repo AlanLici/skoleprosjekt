@@ -1201,3 +1201,15 @@
 /Users/alanlici/Documents/gitprosjekter/skoleprosjekt/UiS.Dat240.Lab3/obj/Debug/net7.0/UiS.Dat240.Lab3.pdb
 /Users/alanlici/Documents/gitprosjekter/skoleprosjekt/UiS.Dat240.Lab3/obj/Debug/net7.0/UiS.Dat240.Lab3.genruntimeconfig.cache
 /Users/alanlici/Documents/gitprosjekter/skoleprosjekt/UiS.Dat240.Lab3/obj/Debug/net7.0/ref/UiS.Dat240.Lab3.dll
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.csproj.AssemblyReference.cache
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.AssemblyInfoInputs.cache
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.AssemblyInfo.cs
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.csproj.CoreCompileInputs.cache
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.MvcApplicationPartsAssemblyInfo.cs
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.MvcApplicationPartsAssemblyInfo.cache
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.RazorAssemblyInfo.cache
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.RazorAssemblyInfo.cs
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.dll
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/refint/UiS.Dat240.Lab3.dll
+/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/obj/Debug/net7.0/UiS.Dat240.Lab3.pdb
