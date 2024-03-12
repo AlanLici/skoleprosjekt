@@ -1,0 +1,36 @@
+@page
+@model UiS.Dat240.Lab3.Pages.Order.IndexModel
+@{
+}
+
+<div class="text-center">
+
+	<h1 class="display-4">Orders</h1>
+	<div class="text-left">
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th scope="col">Customer Name</th>
+						<th scope="col">Building</th>
+						<th scope="col">Room Number</th>
+						<th scope="col">Order Date</th>
+						<th scope="col">Status</th>
+						<th scope="col"></th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var order in Model.Orders)
+					{
+						<tr>
+							<td>@order.CustomerName</td>
+							<td>@order.Building</td>
+							<td>@order.RoomNumber</td>
+							<td>@order.OrderDate.ToString()</td>
+							<td>@order.Status</td>
+                            <td><a href="/Order/OrderOverview/@order.Id" class="btn btn-primary">Details</a></td>
+						</tr>
+					}
+				</tbody>
+			</table>
+	</div>
+</div>

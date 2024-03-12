@@ -1,0 +1,66 @@
+@page "{orderId:Guid}"
+@model UiS.Dat240.Lab3.Pages.Orders.DetailsModel
+@{
+}
+
+@if (Model.OrderDetails == null)
+{
+    <h1>Order not found</h1>
+}
+else
+{
+    <h1>Order Details</h1>
+    <table class="table table-striped table-hover">
+		<thead>
+			<tr>
+                <th scope="col">Order ID</th>
+				<th scope="col">Customer Name</th>
+				<th scope="col" class="text-right">Building</th>
+				<th scope="col" class="text-right">Room Number</th>
+				<th scope="col">Order Date</th>
+				<th scope="col">Status</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">@Model.OrderDetails.Id</th>
+				<td>@Model.OrderDetails.CustomerName</td>
+				<td>@Model.OrderDetails.Building</td>
+				<td class="text-right">@Model.OrderDetails.RoomNumber</td>
+				<td class="text-right text-nowrap">@Model.OrderDetails.OrderDate</td>
+                <td class="text-right">@Model.OrderDetails.Status</td>
+			</tr>
+		</tbody>
+	</table>
+	<ul class="list-group">
+    @foreach (var item in Model.OrderDetails.Items)
+    {
+        <li class="list-group-item">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Name: @item.Item</h5>
+                <span class="badge badge-primary badge-pill">Count: @item.Amount</span>
+            </div>
+            <p class="mb-1">Price: $@item.Price</p>
+        </li>
+    }
+	</ul>
+	<div>
+		<p>Notes: @Model.OrderDetails.Notes</p>
+		<p>Invoice Amount: @Model.OrderDetails.InvoiceAmount.ToString()</p>
+		<p>Invoice Status: @Model.OrderDetails.InvoiceStatus</p>
+
+		@if (!string.IsNullOrWhiteSpace(Model.OrderDetails.ShipperName))
+		{
+			<p>Shipper: @Model.OrderDetails.ShipperName</p>
+		}
+	</div>
+    @if(string.IsNullOrWhiteSpace(Model.OrderDetails.ShipperName)) 
+	{
+        <form method="post">
+            Shipper Name:
+			<input required asp-for="NewShipperName" class="form-control" />
+			<br />
+			<input type="submit" value="Submit" class="btn btn-success" />
+		</form>
+	}
+}

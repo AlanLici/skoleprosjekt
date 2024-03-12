@@ -1,0 +1,72 @@
+@page
+@model Lab3.Pages.CheckoutModel
+@{
+	ViewData["Title"] = "Shopping Cart - Checkout";
+}
+
+<div class="text-center mt-4">
+	<h1 class="display-4 mt-5">Your Cart</h1>
+	<div class="text-left">
+		@if (Model.Cart is null)
+		{
+			<p>There is nothing in your cart</p>
+		}
+		else
+		{
+			<form method="post">
+				<div class="form-group">
+					<p>Customer Name</p>
+					<input required asp-for="CustomerName" class="form-control" />
+					<p>Building</p>
+					<input required asp-for="Building" class="form-control" />
+					<p>Location Notes</p>
+					<input required asp-for="LocationNotes" class="form-control" />
+					<p>Room Number</p>
+					<input required asp-for="RoomNumber" class="form-control" />
+				</div>
+
+				@foreach (var err in Model.Errors)
+				{
+					<p class="text-danger">@err</p>
+				}
+
+				<div class="form-group">
+					<input type="submit" class="btn btn-primary" value="Place Order" />
+				</div>
+			</form>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Dish</th>
+						<th scope="col">Count</th>
+						<th scope="col">Price</th>
+						<th scope="col">Sum</th>
+					</tr>
+				</thead>
+				<tbody>
+
+					@foreach (var item in Model.Cart.Items)
+					{
+						<tr>
+							<th scope="row">@item.Name</th>
+							<td>@item.Count</td>
+							<td>@item.Price</td>
+							<td>@item.Sum</td>
+						</tr>
+					}
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<h4>Total:</h4>
+						</td>
+						<td>
+							<h4>@Model.TotalSum</h4>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		}
+	</div>
+</div>
