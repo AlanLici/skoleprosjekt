@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FX5Vq4tLi0PHIEi9mceEhZ3i0jSoMHzZ0rrcV2J+QiEV4k7lGDvba0PGVddntNPl89UB526Hxyw44d0JMHjQpA==",
+  "dgSpecHash": "Ip2454CKRwbwJHyVRLrjNOpjRc2DsWh2iH8zKVv8w8nM5YSfrZcw5KCs197mXgSg5yIV4N8Tfoi4L3zmn+dhkw==",
   "success": true,
-  "projectFilePath": "/Users/alanlici/dat240-2023/assignments/lab3_/Lab3/UiS.Dat240.Lab3.Tests/UiS.Dat240.Lab3.Tests.csproj",
+  "projectFilePath": "/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/UiS.Dat240.Lab3.Tests/UiS.Dat240.Lab3.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/alanlici/.nuget/packages/bogus/34.0.2/bogus.34.0.2.nupkg.sha512",
     "/Users/alanlici/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",

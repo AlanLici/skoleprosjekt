@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YEkyz1C7m3pUf3gY2mdSxiVkKPxQJZrKSlvPOCLMjvnlcmjlfHtBY+HhkbvgV+H+VOvKUg4Ye5kKVboxTRPGbA==",
+  "dgSpecHash": "jA3k1rYSocJjnAolp/bl5GQagQ/1jCUmIHlMuvQ2cFQnYxuCH6VtpKzmqZyB9Gd/1y0dcIiRM0w1Ot9sKDqjHQ==",
   "success": true,
-  "projectFilePath": "/Users/alanlici/dat240-2023/assignments/lab3_/Lab3/UiS.Dat240.Lab3/UiS.Dat240.Lab3.csproj",
+  "projectFilePath": "/Users/alanlici/Documents/gitprosjekter/skoleprosjekt/UiS.Dat240.Lab3/UiS.Dat240.Lab3.csproj",
   "expectedPackageFiles": [
     "/Users/alanlici/.nuget/packages/bogus/34.0.2/bogus.34.0.2.nupkg.sha512",
     "/Users/alanlici/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
